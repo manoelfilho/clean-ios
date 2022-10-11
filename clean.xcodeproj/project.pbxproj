@@ -7,14 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BB8FDE0528F5F743003FDB3D /* RemoteAddAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FDE0428F5F743003FDB3D /* RemoteAddAccount.swift */; };
+		BB8FDE0528F5F743003FDB3D /* AddAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FDE0428F5F743003FDB3D /* AddAccount.swift */; };
 		BB8FDE0728F5F801003FDB3D /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FDE0628F5F801003FDB3D /* AccountModel.swift */; };
+		BB8FDE1528F5FA26003FDB3D /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8FDE0D28F5FA25003FDB3D /* Data.framework */; };
+		BB8FDE1A28F5FA26003FDB3D /* RemoteAddAccountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FDE1928F5FA26003FDB3D /* RemoteAddAccountTests.swift */; };
+		BB8FDE2328F5FA2E003FDB3D /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8FDDFD28F5F70A003FDB3D /* Domain.framework */; };
+		BB8FDE2428F5FA2E003FDB3D /* Domain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BB8FDDFD28F5F70A003FDB3D /* Domain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BB8FDE2A28F5FCFE003FDB3D /* HttpPostClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FDE2928F5FCFE003FDB3D /* HttpPostClient.swift */; };
+		BB8FDE2C28F5FDC6003FDB3D /* HttpPostClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FDE2928F5FCFE003FDB3D /* HttpPostClient.swift */; };
+		BB8FDE2E28F60094003FDB3D /* RemoteAddAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FDE2D28F60094003FDB3D /* RemoteAddAccount.swift */; };
+		BB8FDE2F28F600A3003FDB3D /* RemoteAddAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FDE2D28F60094003FDB3D /* RemoteAddAccount.swift */; };
+		BB8FDE3128F6055C003FDB3D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8FDE3028F6055C003FDB3D /* Model.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB8FDE1628F5FA26003FDB3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB8FDDD928F5F69B003FDB3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB8FDE0C28F5FA25003FDB3D;
+			remoteInfo = Data;
+		};
+		BB8FDE2528F5FA2E003FDB3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB8FDDD928F5F69B003FDB3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB8FDDFC28F5F70A003FDB3D;
+			remoteInfo = Domain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BB8FDE2728F5FA2E003FDB3D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BB8FDE2428F5FA2E003FDB3D /* Domain.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		BB8FDDFD28F5F70A003FDB3D /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB8FDE0428F5F743003FDB3D /* RemoteAddAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteAddAccount.swift; sourceTree = "<group>"; };
+		BB8FDE0428F5F743003FDB3D /* AddAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccount.swift; sourceTree = "<group>"; };
 		BB8FDE0628F5F801003FDB3D /* AccountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountModel.swift; sourceTree = "<group>"; };
+		BB8FDE0D28F5FA25003FDB3D /* Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB8FDE1428F5FA26003FDB3D /* DataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB8FDE1928F5FA26003FDB3D /* RemoteAddAccountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteAddAccountTests.swift; sourceTree = "<group>"; };
+		BB8FDE2928F5FCFE003FDB3D /* HttpPostClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpPostClient.swift; sourceTree = "<group>"; };
+		BB8FDE2D28F60094003FDB3D /* RemoteAddAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteAddAccount.swift; sourceTree = "<group>"; };
+		BB8FDE3028F6055C003FDB3D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,6 +71,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BB8FDE0A28F5FA25003FDB3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8FDE2328F5FA2E003FDB3D /* Domain.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8FDE1128F5FA26003FDB3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8FDE1528F5FA26003FDB3D /* Data.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -32,7 +94,10 @@
 			isa = PBXGroup;
 			children = (
 				BB8FDDFE28F5F70A003FDB3D /* Domain */,
+				BB8FDE0E28F5FA25003FDB3D /* Data */,
+				BB8FDE1828F5FA26003FDB3D /* DataTests */,
 				BB8FDDE228F5F69B003FDB3D /* Products */,
+				BB8FDE2228F5FA2E003FDB3D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -40,6 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				BB8FDDFD28F5F70A003FDB3D /* Domain.framework */,
+				BB8FDE0D28F5FA25003FDB3D /* Data.framework */,
+				BB8FDE1428F5FA26003FDB3D /* DataTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -47,16 +114,48 @@
 		BB8FDDFE28F5F70A003FDB3D /* Domain */ = {
 			isa = PBXGroup;
 			children = (
-				BB8FDE0428F5F743003FDB3D /* RemoteAddAccount.swift */,
+				BB8FDE0428F5F743003FDB3D /* AddAccount.swift */,
 				BB8FDE0628F5F801003FDB3D /* AccountModel.swift */,
+				BB8FDE3028F6055C003FDB3D /* Model.swift */,
 			);
 			path = Domain;
+			sourceTree = "<group>";
+		};
+		BB8FDE0E28F5FA25003FDB3D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				BB8FDE2928F5FCFE003FDB3D /* HttpPostClient.swift */,
+				BB8FDE2D28F60094003FDB3D /* RemoteAddAccount.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		BB8FDE1828F5FA26003FDB3D /* DataTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB8FDE1928F5FA26003FDB3D /* RemoteAddAccountTests.swift */,
+			);
+			path = DataTests;
+			sourceTree = "<group>";
+		};
+		BB8FDE2228F5FA2E003FDB3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
 		BB8FDDF828F5F70A003FDB3D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8FDE0828F5FA25003FDB3D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -84,6 +183,44 @@
 			productReference = BB8FDDFD28F5F70A003FDB3D /* Domain.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		BB8FDE0C28F5FA25003FDB3D /* Data */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB8FDE1C28F5FA26003FDB3D /* Build configuration list for PBXNativeTarget "Data" */;
+			buildPhases = (
+				BB8FDE0828F5FA25003FDB3D /* Headers */,
+				BB8FDE0928F5FA25003FDB3D /* Sources */,
+				BB8FDE0A28F5FA25003FDB3D /* Frameworks */,
+				BB8FDE0B28F5FA25003FDB3D /* Resources */,
+				BB8FDE2728F5FA2E003FDB3D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB8FDE2628F5FA2E003FDB3D /* PBXTargetDependency */,
+			);
+			name = Data;
+			productName = Data;
+			productReference = BB8FDE0D28F5FA25003FDB3D /* Data.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB8FDE1328F5FA26003FDB3D /* DataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB8FDE1F28F5FA26003FDB3D /* Build configuration list for PBXNativeTarget "DataTests" */;
+			buildPhases = (
+				BB8FDE1028F5FA26003FDB3D /* Sources */,
+				BB8FDE1128F5FA26003FDB3D /* Frameworks */,
+				BB8FDE1228F5FA26003FDB3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB8FDE1728F5FA26003FDB3D /* PBXTargetDependency */,
+			);
+			name = DataTests;
+			productName = DataTests;
+			productReference = BB8FDE1428F5FA26003FDB3D /* DataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -97,6 +234,13 @@
 					BB8FDDFC28F5F70A003FDB3D = {
 						CreatedOnToolsVersion = 14.0.1;
 						LastSwiftMigration = 1400;
+					};
+					BB8FDE0C28F5FA25003FDB3D = {
+						CreatedOnToolsVersion = 14.0.1;
+						LastSwiftMigration = 1400;
+					};
+					BB8FDE1328F5FA26003FDB3D = {
+						CreatedOnToolsVersion = 14.0.1;
 					};
 				};
 			};
@@ -114,12 +258,28 @@
 			projectRoot = "";
 			targets = (
 				BB8FDDFC28F5F70A003FDB3D /* Domain */,
+				BB8FDE0C28F5FA25003FDB3D /* Data */,
+				BB8FDE1328F5FA26003FDB3D /* DataTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		BB8FDDFB28F5F70A003FDB3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8FDE0B28F5FA25003FDB3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8FDE1228F5FA26003FDB3D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -133,12 +293,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB8FDE0528F5F743003FDB3D /* RemoteAddAccount.swift in Sources */,
+				BB8FDE3128F6055C003FDB3D /* Model.swift in Sources */,
+				BB8FDE0528F5F743003FDB3D /* AddAccount.swift in Sources */,
 				BB8FDE0728F5F801003FDB3D /* AccountModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BB8FDE0928F5FA25003FDB3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8FDE2A28F5FCFE003FDB3D /* HttpPostClient.swift in Sources */,
+				BB8FDE2E28F60094003FDB3D /* RemoteAddAccount.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8FDE1028F5FA26003FDB3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8FDE2F28F600A3003FDB3D /* RemoteAddAccount.swift in Sources */,
+				BB8FDE2C28F5FDC6003FDB3D /* HttpPostClient.swift in Sources */,
+				BB8FDE1A28F5FA26003FDB3D /* RemoteAddAccountTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB8FDE1728F5FA26003FDB3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB8FDE0C28F5FA25003FDB3D /* Data */;
+			targetProxy = BB8FDE1628F5FA26003FDB3D /* PBXContainerItemProxy */;
+		};
+		BB8FDE2628F5FA2E003FDB3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB8FDDFC28F5F70A003FDB3D /* Domain */;
+			targetProxy = BB8FDE2528F5FA2E003FDB3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		BB8FDDF328F5F69C003FDB3D /* Debug */ = {
@@ -322,6 +515,109 @@
 			};
 			name = Release;
 		};
+		BB8FDE1D28F5FA26003FDB3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 56EQ48SVZJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.eti.manoelfilho.clean.Data;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BB8FDE1E28F5FA26003FDB3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 56EQ48SVZJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.eti.manoelfilho.clean.Data;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BB8FDE2028F5FA26003FDB3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56EQ48SVZJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.eti.manoelfilho.clean.DataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BB8FDE2128F5FA26003FDB3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56EQ48SVZJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.eti.manoelfilho.clean.DataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -339,6 +635,24 @@
 			buildConfigurations = (
 				BB8FDE0228F5F70A003FDB3D /* Debug */,
 				BB8FDE0328F5F70A003FDB3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB8FDE1C28F5FA26003FDB3D /* Build configuration list for PBXNativeTarget "Data" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB8FDE1D28F5FA26003FDB3D /* Debug */,
+				BB8FDE1E28F5FA26003FDB3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB8FDE1F28F5FA26003FDB3D /* Build configuration list for PBXNativeTarget "DataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB8FDE2028F5FA26003FDB3D /* Debug */,
+				BB8FDE2128F5FA26003FDB3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
