@@ -83,7 +83,32 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
-      enableThreadSanitizer = "YES">
+      enableThreadSanitizer = "YES"
+      codeCoverageEnabled = "YES"
+      onlyGenerateCoverageForSpecifiedTargets = "YES">
+      <CodeCoverageTargets>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "BB8FDE0C28F5FA25003FDB3D"
+            BuildableName = "Data.framework"
+            BlueprintName = "Data"
+            ReferencedContainer = "container:clean.xcodeproj">
+         </BuildableReference>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "BB8FDDFC28F5F70A003FDB3D"
+            BuildableName = "Domain.framework"
+            BlueprintName = "Domain"
+            ReferencedContainer = "container:clean.xcodeproj">
+         </BuildableReference>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "BB8FDE4528F6EE42003FDB3D"
+            BuildableName = "Infra.framework"
+            BlueprintName = "Infra"
+            ReferencedContainer = "container:clean.xcodeproj">
+         </BuildableReference>
+      </CodeCoverageTargets>
       <Testables>
          <TestableReference
             skipped = "NO"
