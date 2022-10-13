@@ -1,5 +1,9 @@
 import Foundation
 
 enum HttpError: Error {
-    case noConectivity
+    case unauthorized
+    case forbiden
+    case badRequest
+    case serverError
+    case noConnectivity
 }
