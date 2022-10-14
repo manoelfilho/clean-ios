@@ -1,17 +1,17 @@
 import Foundation
 import Domain
 
-class RemoteAddAccount: AddAccount{
+public final class RemoteAddAccount: AddAccount{
     
     var url: URL
     var httpPostClient: HttpPostClient
     
-    init(url: URL, httpPostClient: HttpPostClient) {
+    public init(url: URL, httpPostClient: HttpPostClient) {
         self.url = url
         self.httpPostClient = httpPostClient
     }
     
-    func add(addAccountModel: AddAccountModel, completion: @escaping (Result<AccountModel, DomainError>) -> Void) {
+    public func add(addAccountModel: AddAccountModel, completion: @escaping (Result<AccountModel, DomainError>) -> Void) {
         let data = addAccountModel.toData()
         self.httpPostClient.post(to: self.url, with: data) { [weak self] result in
             //usado para provar a possibilidade de um Memory leak

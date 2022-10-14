@@ -11,7 +11,7 @@ public final class AlamofireAdapter: HttpPostClient {
         self.session = session
     }
     
-    func post(to url: URL, with data: Data?, completion: @escaping (Result<Data?, HttpError>) -> Void) {
+    public func post(to url: URL, with data: Data?, completion: @escaping (Result<Data?, HttpError>) -> Void) {
         
         session.request(
             url,

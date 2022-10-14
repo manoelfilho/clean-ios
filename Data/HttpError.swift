@@ -1,6 +1,6 @@
 import Foundation
 
-enum HttpError: Error {
+public enum HttpError: Error {
     case unauthorized
     case forbiden
     case badRequest
