@@ -1,6 +1,5 @@
 import XCTest
 import Alamofire
-import Mocker
 
 /*
  
