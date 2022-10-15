@@ -34,6 +34,11 @@
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
+		<key>iOS-UI.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -63,6 +68,16 @@
 			<true/>
 		</dict>
 		<key>BB8FDE4C28F6EE42003FDB3D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BBF72D0828F9A3D800B8AC53</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BBF72D0F28F9A3D900B8AC53</key>
 		<dict>
 			<key>primary</key>
 			<true/>
