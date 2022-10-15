@@ -9,7 +9,7 @@ final class IntegrationTests: XCTestCase {
         let url = URL(string: "http://192.168.1.8:3001/signup")!
         let httpPostClient = AlamofireAdapter()
         let sut = RemoteAddAccount(url: url, httpPostClient: httpPostClient)
-        let addAccountModel = AddAccountModel(name: "any-name", email: "any-email@email.com", password: "any-password", password_confirmation: "any-password")
+        let addAccountModel = AddAccountModel(name: "any-name", email: "any-email@email.com", password: "any-password", passwordConfirmation: "any-password")
         
         let exp = expectation(description: "waiting")
         sut.add(addAccountModel: addAccountModel) { result in

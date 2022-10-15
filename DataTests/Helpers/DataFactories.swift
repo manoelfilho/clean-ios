@@ -28,3 +28,7 @@ func makeHttpResponse(statusCode: Int = 200) -> HTTPURLResponse? {
 func makeAccountModel() -> AccountModel {
     return AccountModel(id:"1", name: "any-name", email: "any-email@email.com", password: "any-password")
 }
+
+func makeAddAccountModel() -> AddAccountModel {
+    return AddAccountModel(name: "any-name", email: "any-email@email.com", password: "any-password", passwordConfirmation: "any-password")
+}
